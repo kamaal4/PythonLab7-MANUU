@@ -16,7 +16,6 @@ while True:
         if not line:
             break
     except ValueError:
-        #print("Line does not contain integer.")
         break
 print(f1.name)
 print(f2.name)
