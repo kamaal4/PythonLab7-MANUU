@@ -1,3 +1,20 @@
+while 1:
+    elements = input("Enter the integers in the file or enter '101' to exit :\n")
+    try:
+        elements = int(elements)
+        if elements != 101:
+            file = open("integers.txt","a")
+            file.write(str(elements))
+            file.write("\n")
+            file.close()
+            continue
+        else:
+            file.close()
+            break
+    except ValueError:
+        print("Enter numbers only.")
+        #file.close()
+        continue   
 f = open("integers.txt","r")
 while True:
     line = f.readline()
