@@ -1,3 +1,6 @@
+# Name: Mohd Mustafa Kamaal
+# Roll no: 34
+# Enrl no: A180571
 while 1:
     elements = input("Enter the integers in the file or enter '101' to exit :\n")
     try:
